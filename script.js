@@ -1,6 +1,20 @@
 
+function desabilitar2(boton) {
+    boton.disabled = true; 
+    boton.style.backgroundColor = "green";
+  }
+  function desabilitar3(boton) {
+    
+    boton.disabled = true; 
+    boton.style.backgroundColor = "red";
+  }
+  function desabilitar1(boton) {
+    
+    boton.disabled = true; 
+    boton.style.backgroundColor = "blue";
+  }
 
-
+  
 function calculadora(){
 
     var n1  = document.getElementById('n1').value;
